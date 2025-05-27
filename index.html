@@ -1,34 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>iPhone Setup Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
+      line-height: 1.6;
       margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
+      padding: 20px;
+      background-color: #f4f4f4;
     }
     h1 {
-      background-color: #0078D7;
-      color: white;
-      padding: 1rem;
-      margin: 0;
+      color: #0078D4;
     }
-    iframe {
-      width: 80vw;
-      height: 90vh;
-      border: none;
-      margin-top: 1rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      background-color: white;
+    .step {
+      background: #fff;
+      border-left: 5px solid #0078D4;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
     }
   </style>
 </head>
 <body>
+
   <h1>iPhone Setup Guide</h1>
-  <embed src="iPhone_Setup_Guide_May_2025.pdf" type="application/pdf" scrolling="auto" scrollbar="1" title="Setup Guide"></embed>
+  <p>Welcome to your new Salford City Council mobile phone. Follow the steps below to complete your setup:</p>
+
+  <div class="step">
+    <h2>Step 1: Quick Start</h2>
+    <p>Insert your SIM card and follow the Quick Start setup. Tap “Set Up Without Another Device”.</p>
+    <img src="1_quick-start.png" alt="Quick Start screen">
+  </div>
+
+  <div class="step">
+    <h2>Step 2: Wi-Fi Network</h2>
+    <p>Connect to a home or personal Wi-Fi. Do <strong>not</strong> use SCC WiFi.</p>
+    <img src="2_wifi-network.png" alt="WiFi Network screen">
+  </div>
+
+  <div class="step">
+    <h2>Step 3: Remote Management</h2>
+    <p>At the Remote Management screen, tap “Enroll this iPhone”.</p>
+    <img src="3_remote management.png" alt="Remote Management screen">
+  </div>
+
+  <div class="step">
+    <h2>Step 4: Company Portal</h2>
+    <p>Launch the Company Portal app and sign in using your @salford.gov.uk email.</p>
+    <img src="4_company portal.png" alt="Company Portal screen">
+  </div>
+
+  <div class="step">
+    <h2>Step 5: Default Device Category</h2>
+    <p>Choose “SCC Mobile Phones” when asked to select a device category.</p>
+    <img src="5_default device.png" alt="Device category selection screen">
+  </div>
+
+  <div class="step">
+    <h2>Step 6: Microsoft Defender</h2>
+    <p>Open the Microsoft Defender app and sign in.</p>
+    <img src="6_ms defender.png" alt="Microsoft Defender sign-in screen">
+  </div>
+
+  <div class="step">
+    <h2>Step 7: Allow Defender Access</h2>
+    <p>Allow Defender to configure VPN. You may be asked for your password to proceed.</p>
+    <img src="7_allow defender.png" alt="Allow Defender VPN configuration">
+  </div>
+
 </body>
 </html>
